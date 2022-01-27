@@ -1,4 +1,4 @@
-package com.rbkmoney.dao;
+package dev.vality.dao;
 
 import org.jooq.Query;
 import org.springframework.jdbc.core.RowMapper;

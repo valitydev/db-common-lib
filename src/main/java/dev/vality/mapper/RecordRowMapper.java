@@ -1,6 +1,6 @@
-package com.rbkmoney.mapper;
+package dev.vality.mapper;
 
-import com.rbkmoney.geck.common.util.TypeUtil;
+import dev.vality.geck.common.util.TypeUtil;
 import org.jooq.Field;
 import org.jooq.Table;
 import org.jooq.TableRecord;

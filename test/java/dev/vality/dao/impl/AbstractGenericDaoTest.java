@@ -1,6 +1,6 @@
-package com.rbkmoney.dao.impl;
+package dev.vality.dao.impl;
 
-import com.rbkmoney.dao.DaoException;
+import dev.vality.dao.DaoException;
 import org.jooq.DataType;
 import org.jooq.Param;
 import org.jooq.Query;

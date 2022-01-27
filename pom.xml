@@ -4,20 +4,20 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <parent>
-        <groupId>com.rbkmoney</groupId>
+        <groupId>dev.vality</groupId>
         <artifactId>library-parent-pom</artifactId>
-        <version>1.0.4</version>
+        <version>1.0.2</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
 
     <artifactId>db-common-lib</artifactId>
-    <version>0.0.5</version>
+    <version>0.0.1</version>
 
     <name>db-common-lib</name>
     <description>Abstract dao and row mappers</description>
-    <url>https://github.com/rbkmoney/db-common-lib</url>
+    <url>https://github.com/valitydev/db-common-lib</url>
 
     <licenses>
         <license>
@@ -29,9 +29,9 @@
     <developers>
         <developer>
             <name>Vitaly Banin</name>
-            <email>v.banin@rbkmoney.com</email>
-            <organization>RBK.money</organization>
-            <organizationUrl>https://rbk.money</organizationUrl>
+            <email>v.banin@vality.dev</email>
+            <organization>Vality</organization>
+            <organizationUrl>https://vality.dev</organizationUrl>
         </developer>
     </developers>
 
@@ -40,7 +40,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <jooq.version>3.13.2</jooq.version>
-        <geck.common.version>0.6.11</geck.common.version>
+        <geck.common.version>0.0.1</geck.common.version>
     </properties>
 
     <dependencyManagement>
@@ -57,7 +57,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jdbc</artifactId>
-            <version>2.5.3</version>
+            <version>2.6.0</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -67,7 +67,7 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>com.rbkmoney.geck</groupId>
+            <groupId>dev.vality.geck</groupId>
             <artifactId>common</artifactId>
             <version>${geck.common.version}</version>
             <scope>provided</scope>
