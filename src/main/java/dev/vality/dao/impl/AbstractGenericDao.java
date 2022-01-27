@@ -1,7 +1,7 @@
-package com.rbkmoney.dao.impl;
+package dev.vality.dao.impl;
 
-import com.rbkmoney.dao.DaoException;
-import com.rbkmoney.dao.GenericDao;
+import dev.vality.dao.DaoException;
+import dev.vality.dao.GenericDao;
 import org.jooq.*;
 import org.jooq.conf.ParamType;
 import org.jooq.impl.DSL;

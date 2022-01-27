@@ -1,4 +1,4 @@
-package com.rbkmoney.dao;
+package dev.vality.dao;
 
 public class DaoException extends RuntimeException {
 
